@@ -1,0 +1,376 @@
+@font-face {
+    font-family: 'TTBooksScript';
+    src: url('../fonts/TTBooksScript.eot');
+    src: local('☞TT Books Script'), local('TTBooksScript'),
+        url('../fonts/TTBooksScript.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TTBooksScript.woff2') format('woff2'),
+        url('../fonts/TTBooksScript.woff') format('woff'),
+        url('../fonts/TTBooksScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700italic&display=swap&subset=cyrillic-ext");
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body{
+	line-height: 1;
+}
+/* --------------- */
+body{
+	font-family: Arial;
+	max-width: 1400px;
+	margin: 0px auto;
+}
+/* =================================Меню============================================ */
+.menu {
+
+}
+.menu-list {
+	padding: 25px;
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+}
+.menu-list li {
+display: inline-block;
+margin: 0px 0px 20px 20px;
+font-size: 14px;
+font-family:"Montserrat";
+border-bottom: 5px solid red;
+text-transform: capitalize;
+}
+.menu-link {
+color:black;
+font-size: 50px;
+}
+/* =========================================================================================== */
+.title {
+	font-family:"Montserrat";
+	text-align: center;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 30px;
+	padding: 15px;
+	color:darkslategray;
+	text-shadow: 1px 1px 1px  rgb(245, 12, 12), -1px -1px 10px black;
+	font-size: 60px;
+}
+
+/* ============================Фонтомные отступы============================= */
+
+.fontom {
+	font-size: 0;
+	text-align: center;
+	margin: 0px 0px 40px 0px;
+}
+.fontom-title {
+	margin: 0px 0px 10px 0px;
+}
+
+.fontom-item {
+display: inline-block;
+background:rgba(102, 10, 99, 0.514);
+width: 200px;
+color:#fff;
+padding: 15px;
+font-size: 16px;
+vertical-align:top;
+text-align: center;
+font-size: 25px;
+line-height: 25px;
+}
+/* ==========================================Float================================================= */
+.float {
+	max-width: 900px;
+	margin: 20px auto;
+	background-color: #eee;
+	padding: 25px;
+	text-align: justify;
+	line-height: 30px;
+	font-size: 25px;	
+}
+.float-title {
+	margin: 0px 0px 10px 0px;
+
+}
+
+.float-image {
+	width:400px;
+	padding: 10px;
+	float:left;
+}
+
+.clear {
+	clear: both;
+}
+/* ================================================Border======================================
+ */
+.border {
+padding: 30px 0px 0px 0px;
+margin: 0px 0px 30px 0px;
+
+}
+.border-title {
+margin: 0px 0px 10px 0px;
+}
+
+.text{
+	margin: 0px 0px 10px 0px;
+	text-align: center;
+	font-size: 0;
+	max-width: 900px;
+	margin: 0px auto;
+}
+
+.text p {
+font-family:"TTBooksScript";
+display: inline-block;
+width: 400px;
+padding: 10px;
+margin: 0px 20px 20px 20px;
+vertical-align: top;
+font-size: 30px;
+}
+
+.a {
+	border: 3px solid red;
+}
+.b {
+	border: 3px dotted green;
+
+}
+.c {
+	border: 3px dashed orange;
+
+}
+.d {
+border-top:3px solid red;
+border-left: 3px dotted green;
+border-bottom: 3px dashed orange;
+border-right: 3px solid transparent;
+}
+
+.border-inlain {
+	border: 3px solid red;
+	line-height: 30px;
+	font-size: 30px;
+}
+/* ================================Border-Radius================================================= */
+
+.border-radius {
+	margin: 0px 0px 40px 0px;
+}
+.border-radius-title {
+	margin: 0px 0px 10px 0px;
+}
+.one {
+	border:3px dashed red;
+	border-radius:50px;
+		border-left: transparent;
+		border-right:transparent;
+
+}
+.two {
+		border:3px solid orangered;
+		border-bottom: transparent;
+		border-top:transparent;
+	border-radius:50%;
+	overflow: hidden;
+}
+.three {
+	border:3px solid blue;
+	border-radius: 0 50px;
+}
+.four{
+	border:3px dotted rgb(218, 27, 132);
+	border-radius: 50px 50px 30px 30px;
+	overflow: hidden;
+	
+}
+.border-radius-inlain {
+		border:3px solid blue;
+	border-radius: 50%;
+	line-height: 35px;
+	font-size: 25px;
+
+}
+.border-image {
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 25px;
+	max-width: 600px;
+	max-height: 600px;
+	border-radius: 50%;
+	border:3px dotted rgb(135, 218, 27);
+	margin: 0px auto;
+}
+/* ============================================Outline============================================ */
+.outline {
+	margin: 0px 0px 40px 0px;
+	padding: 10px 50px 10px 50px;
+	outline:3px solid rgb(223, 92, 17);
+}
+
+.outline-title {
+	margin: 0px 0px 10px 0px;
+	outline:3px dotted rgb(13, 209, 216);
+}
+
+.outline-list {
+	font-family: "Montserrat";
+	font-style: italic;
+	font-weight: 700;
+	font-size: 25px;
+	padding: 10px;
+	outline:3px dashed darkolivegreen;
+
+
+}
+
+.outline-list li {
+	margin: 0px 0px 10px 0px;
+	padding: 10px;
+	color: rgb(82, 21, 224);
+	outline:3px solid rgb(215, 230, 9);
+
+}
+.outline-list li:last-child {
+margin: 0;
+	}
+
+	/* =================================Box-Shadow============================== */
+.box-shadow {
+	margin: 0px 0px 40px 0px;
+	text-align: center;
+}
+.box-shadow-title {
+	margin: 0px 0px 10px 0px;
+}
+.box-text {
+margin: 0px 50px 20px 50px;
+}
+.box-text p{
+	padding: 25px;
+	text-align: center;
+	max-width: 900px;
+	height: 100px;
+	margin: 20px auto;
+	font-size: 25px;
+}
+.text1 {
+	box-shadow:2px 2px 2px 3px red;
+
+}
+.text2 {
+	box-shadow:-2px -2px 2px 3px red;
+
+}
+.text3 {
+	box-shadow:inset 2px 2px 2px 3px red;
+
+}
+.text4 {
+	box-shadow:inset -2px -2px 2px 3px red;
+
+}
+.text5 {
+	box-shadow:2px 2px 2px 3px red, -2px -2px 2px 3px red;
+	
+}
+.text6 {
+	box-shadow:2px 2px 2px 3px red;
+	border-radius: 50%;
+}
+
+.image1 {
+	width: 350px;
+	height: 350px;
+	box-shadow:2px 2px 2px 3px red;
+}
+.image2 {
+	width: 350px;
+	height: 350px;
+	filter: drop-shadow(1px 10px 2px red);
+}
+/* ======================================Opacity===================================== */
+.opacity {
+	margin: 0px 0px 10px 0px;
+	max-width: 900px;
+	margin: 0px auto;
+}
+.opacity p {
+	margin: 0px 20px 20px 20px;
+	padding: 20px;
+	line-height: 25px;
+	font-size: 25px;
+
+}
+.opacity p span {
+	color:#fff;
+
+}
+.opacity-text {
+	opacity: 0.5;
+	background-color: rgb(50, 21, 216);
+
+}
+.rgba-text  {
+	background-color: rgba(50, 21, 216, 0.5);
+	
+}
+/* =================================Visibility============================================== */
+.visibility {
+	margin: 0px 10px 20px 10px;
+	padding: 25px;
+}
+.visibility-title {
+	margin: 0px 0px 10px 0px;
+}
+
+.visibility-text {
+	margin: 0px 0px 20px 0px;
+	font-size: 25px;
+}
+.visbility-block {
+	margin: 0px 0px 20px 0px;
+	visibility:hidden;
+}
+.opac-text {
+	margin: 0px 0px 20px 0px;
+		font-size: 25px;
+
+}
+.opacity-block {
+	margin: 0px 0px 20px 0px;
+	opacity: 0;
+
+}
